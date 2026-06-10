@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -project \"Coop Climate.xcodeproj\" -scheme \"Coop Climate\" -destination \"platform=iOS Simulator,name=iPhone 15\" -configuration Debug build)",
+      "Bash(xcodebuild -project \"Coop Climate.xcodeproj\" -scheme \"Coop Climate\" -destination \"platform=iOS Simulator,OS:15.5,name=iPhone 13\" -configuration Debug build)",
+      "Bash(xcodebuild -project \"Coop Climate.xcodeproj\" -scheme \"Coop Climate\" -destination \"platform=iOS Simulator,id=B3765ADC-99D8-42B8-B711-D6E5D6760E69\" -configuration Debug build)"
+    ]
+  }
+}
